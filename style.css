@@ -1,0 +1,75 @@
+body {
+  background-color: lightblue;
+  background-image: url("./Assets/back.png");
+  background-repeat: no-repeat;
+  background-size: 2000px 900px;
+}
+
+header {
+  top: 0;
+}
+
+header h1 {
+  color: green;
+  font-size: 5vw;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  z-index: 0;
+}
+
+.window {
+  background-color: white;
+  margin: auto auto;
+  height: 500px;
+  width: 1020px;
+  border: 10px solid hotpink;
+  font: 16px/26px Georgia, Garamond, Serif;
+  overflow: auto;
+  padding: 2%;
+  z-index: 1;
+}
+
+.column {
+  width: 250px;
+  float: left;
+}
+
+.window img {
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  float: left;
+}
+
+.window label {
+  font-size: 16px;
+  text-align: center;
+}
+
+.side-left img {
+  width: 375px;
+  height: 950px;
+  bottom: 0;
+  float: left;
+  position: fixed;
+  z-index: 2;
+}
+
+.side-right img {
+  width: 375px;
+  height: 950px;
+  bottom: 0;
+  right: 0;
+  float: left;
+  position: fixed;
+  z-index: 2;
+}
+
+.corner-img img {
+  height: 250px;
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
